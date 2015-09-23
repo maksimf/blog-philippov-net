@@ -148,6 +148,23 @@ pre {
     }
 }
 
+/**
+ * Tables
+ */
+table {
+  border-collapse: collapse;
+  border: 1px solid $grey-color-light;
+
+  th,
+  td {
+    border: 1px solid $grey-color-light;
+    padding: 8px;
+  }
+
+  tr:hover {
+    cursor: default;
+  }
+}
 
 
 /**
